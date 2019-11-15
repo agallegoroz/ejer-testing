@@ -22,6 +22,6 @@ public class countPositiveTest
    @Test public void exception() 
    {
       int arr[] = {};
-      assertEquals("¡Null pointer exception", 0, countPositive.countPositive(arr));
+      assertEquals("Null pointer exception", 0, countPositive.countPositive(arr));
    }
 }
